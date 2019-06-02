@@ -68,3 +68,6 @@ Because some variables had non-numerical values, it was necessary for them to be
 I split the training file into X_train and Y_Train, using all columns except the variable Survived for X_train, and only Survived for Y_train. X_test was derived from the testing file with PassengerID dropped. From here, it was only a matter of using imported types of predictive modeling algorithms. The models I used included: Logistic Regression, k-Nearest Neighbors, Support Vector Machines, Naive Bayes classifier, Decision Tree, Random Forest, Perceptron, Artificial neural network, and Relevance Vector Machine. 
 
 After running all models and recording their confidence scores, I found that the Random Forest and Decision Tree models were the most accurate, with both of them tying with 86.76% confidence scores.
+
+**Conclusion**
+Thus concludes my first data science project. I was able to implement what I have learned so far by analyzing the task and data at hand, analyzing said data and verifying various hypotheses, cleaning and modeling significant variables with different modeling techniques, and ultimately creating a model with about 87% accuracy. 
